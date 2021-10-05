@@ -109,8 +109,9 @@ void change_token_number(int* A,int count, int org){
 
 void display_queue(int* A, int count){
     for(int i=0;i<count;i++){
-        printf("%d",*(A+i));
+        printf("%d ",*(A+i));
     }
+    printf("\n");
 }
 
 
@@ -152,7 +153,7 @@ int main(){
                          }
                            if(count!=0){
                             get_next_patient(array_A,count);
-                            printf("\n");
+                            //printf("\n");
                           }
                           break;
 
